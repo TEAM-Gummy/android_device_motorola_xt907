@@ -1,8 +1,8 @@
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Gummy stuff.
+$(call inherit-product, vendor/Gummy/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/Gummy/config/nfc_enhanced.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 960
@@ -10,7 +10,7 @@ TARGET_SCREEN_WIDTH := 540
 
 # Release name
 PRODUCT_RELEASE_NAME := XT907
-PRODUCT_NAME := cm_xt907
+PRODUCT_NAME := tg_xt907
 
 $(call inherit-product, device/motorola/xt907/full_xt907.mk)
 
